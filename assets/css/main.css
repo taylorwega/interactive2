@@ -1,12 +1,23 @@
-body{
-	background-color: red;
-
+body {
+    background-image: url("monogram.gif");
+    background-size: 1436px 740px;
+    background-image: no-repeat;
+    text-align: center;
 }
 
+
 h1{
-	font-family: 'Crimson Text', serif;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 60px;
+	color: #D81B60;
+	text-align: center;
+
+}
+h2{
+	font-family: 'Averia Serif Libre', cursive;
 	font-size: 80px;
-	color: white;
+	color: #D81B60;
+	text-align: center;
 
 }
 
@@ -14,13 +25,12 @@ h1{
 
 a{
 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Averia Serif Libre', cursive;
+	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: #D81B60;
 	font-size: 40px;
-
-
-
+	
 
 
 }
