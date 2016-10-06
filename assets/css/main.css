@@ -1,8 +1,12 @@
+body{
+	background-color: red;
 
+}
 
 h1{
 	font-family: 'Crimson Text', serif;
 	font-size: 80px;
+	color: white;
 
 }
 
@@ -12,7 +16,7 @@ a{
 
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 40px;
 
 
