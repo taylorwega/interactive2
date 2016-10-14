@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 1440px;
+	height: 740px;
+	margin: -10px auto;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	margin-right: -10px;
+	background: #F2F3F1;
+	position: ;
+
+
+}
+
+#magnifying-glass
+{
+ font-size: 5em; /* This controls the size. */
+ display: inline-block;
+ width: 0.9em;
+ height: 0.9em;
+ border: 0.1em solid green;
+ position: relative;
+ border-radius: 0.9em;
+}
+
+
+#circle {
+	
+	top: 300px;
+	left: 200px;
+	 font-size: 10em; /* This controls the size. */
+ display: inline-block;
+ width: 0.9em;
+ height: 0.9em;
+ border: 0.1em solid green;
+ position: relative;
+ border-radius: 0.9em;}
+
+#circle2 {
+	top: 310px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	
+	background: white;
+	border: 10px green;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+#circle3 {
+	top: 320px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#circle4 {
+	
+	top: 330px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	outline: black;
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#circle5 {
+	top: 340px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#circle6 {
+	top: 350px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#circle7 {
+	
+	top: 360px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	outline: black;
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#circle8 {
+	top: 370px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#circle7 {
+	top: 380px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#circle8 {
+	top: 390px;
+	left: 200px;
+	position:fixed;
+	width: 10px;
+	height: 10px;
+	
+	background: green;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
