@@ -1,10 +1,22 @@
 body {
-    background-image: url("monogram.gif");
+    background-image: url("assets/name.jpg");
     background-size: 1436px 740px;
     background-image: no-repeat;
     text-align: center;
 }
+.main{
 
+}
+
+.title{
+	left:120px;
+	top: 200px;
+	margin: auto;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 80px;
+	color: #D81B60;
+	text-align: center;
+}
 
 h1{
 	font-family: 'Averia Serif Libre', cursive;
@@ -15,7 +27,7 @@ h1{
 }
 h2{
 	font-family: 'Averia Serif Libre', cursive;
-	font-size: 80px;
+	font-size: 40px;
 	color: #D81B60;
 	text-align: center;
 
@@ -29,7 +41,7 @@ a{
 	text-align: center;
 	text-decoration: none;
 	color: #D81B60;
-	font-size: 40px;
+	font-size: 20px;
 	
 
 
