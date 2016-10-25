@@ -15,146 +15,1091 @@ body {
 	margin-right: -10px;
 	background: #F2F3F1;
 	position: ;
-
-
-}
-
-#magnifying-glass
-{
- font-size: 5em; /* This controls the size. */
- display: inline-block;
- width: 0.9em;
- height: 0.9em;
- border: 0.1em solid green;
- position: relative;
- border-radius: 0.9em;
 }
 
 
-#circle {
+.a{
+	top: 60px;
+	left: 60px;
+	position: absolute;
+}
+
+.a:hover{
+	transform: scale(20);
+}
+
+.b{
+	top: 60px;
+	left: 200px;
+	position: absolute;
+}
+
+.c{
+	top: 60px;
+	left: 390px;
+	position: absolute;
+}
+
+.d{
+	top: 60px;
+	left: 530px;
+	position: absolute;
+}
+
+.e{
+	top: 60px;
+	left: 720px;
+	position: absolute;
+}
+
+.f{
+	top: 60px;
+	left: 860px;
+	position: absolute;
+}
+
+.g{
+	top: 60px;
+	left: 1000px;
+	position: absolute;
+}
+
+.h{
+	top: 280px;
+	left: 60px;
+	position: absolute;
+}
+
+
+.i{
+	top: 280px;
+	left: 200px;
+	position: absolute;
+}
+
+
+
+
+.horizontaltop{
 	
-	top: 300px;
-	left: 200px;
-	 font-size: 10em; /* This controls the size. */
- display: inline-block;
- width: 0.9em;
- height: 0.9em;
- border: 0.1em solid green;
- position: relative;
- border-radius: 0.9em;}
-
-#circle2 {
-	top: 310px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	
-	background: white;
-	border: 10px green;
-	-moz-border-radius: 100%;
-	-webkit-border-radius: 100%;
-	border-radius: 100%;
+	width:180px;
+	height:20px;
+	position: absolute;
 }
 
-#circle3 {
-	top: 320px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+.verticalleft{
+	width: 20px;
+	height: 180px;
+	position: absolute;
 }
 
-#circle4 {
-	
-	top: 330px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	outline: black;
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-}
-#circle5 {
-	top: 340px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-}
-#circle6 {
-	top: 350px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+.verticalright{
+	left:70px;
+	width: 20px;
+	height: 180px;
+	position: absolute;
 }
 
-#circle7 {
-	
-	top: 360px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	outline: black;
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+
+.horizontal{
+	top: 110px;
+	width:180px;
+	height:20px;
+	position: absolute;
 }
-#circle8 {
-	top: 370px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+
+.baseline{
+	top: 160px;
+	width:180px;
+	height:20px;
+	position: absolute;
 }
-#circle7 {
-	top: 380px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+
+.farright{
+	left:120px;
+	width: 20px;
+	height: 180px;
+	position: absolute;
 }
-#circle8 {
-	top: 390px;
-	left: 200px;
-	position:fixed;
-	width: 10px;
-	height: 10px;
-	
-	background: green;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+
+
+
+#circl1{
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
 }
+
+#circl2{
+	top: 10px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#circl3{
+	top: 20px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl4{
+	top: 30px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl5{
+	top: 40px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl6{
+	top: 50px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl7{
+	top: 60px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl8{
+	top: 70px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl9{
+	top: 80px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl10{
+	top: 90px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#circl11{
+	top: 100px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl12{
+	top: 110px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl13{
+	top: 120px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl14{
+	top: 130px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl15{
+	top: 140px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl16{
+	top: 150px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circl17{
+	top: 160px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+#cir1{
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir2{
+	left: 10px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#cir3{
+	left: 20px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir4{
+	left: 30px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir5{
+	left: 40px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir6{
+	left: 50px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir7{
+	left: 60px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir8{
+	left: 70px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir9{
+	left: 80px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir10{
+	left: 90px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir11{
+	left: 100px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir12{
+	left: 110px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#cir13{
+	left: 120px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+#c1{
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c2{
+	left: 10px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#c3{
+	left: 20px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c4{
+	left: 30px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c5{
+	left: 40px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c6{
+	left: 50px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c7{
+	left: 60px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c8{
+	left: 70px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c9{
+	left: 80px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c10{
+	left: 90px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c11{
+	left: 100px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c12{
+	left: 110px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#c13{
+	left: 120px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#circ1{
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circ2{
+	left: 10px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#circ3{
+	left: 20px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circ4{
+	left: 30px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circ5{
+	left: 40px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circ6{
+	left: 50px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circ7{
+	left: 60px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circ8{
+	left: 70px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#circle1{
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle2{
+	top: 10px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#circle3{
+	top: 20px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle4{
+	top: 30px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle5{
+	top: 40px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle6{
+	top: 50px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle7{
+	top: 60px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle8{
+	top: 70px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle9{
+	top: 80px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle10{
+	top: 90px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle11{
+	top: 100px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle12{
+	top: 110px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle13{
+	top: 120px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle14{
+	top: 130px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle15{
+	top: 140px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#circle16{
+	top: 150px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+#circle17{
+	top: 160px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#ci1{
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci2{
+	top: 10px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
+#ci3{
+	top: 20px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci4{
+	top: 30px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci5{
+	top: 40px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci6{
+	top: 50px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci7{
+	top: 60px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci8{
+	top: 70px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci9{
+	top: 80px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci10{
+	top: 90px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci11{
+	top: 100px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci12{
+	top: 110px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci13{
+	top: 120px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci14{
+	top: 130px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci15{
+	top: 140px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#ci16{
+	top: 150px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+#ci17{
+	top: 160px;
+	font-size: 20px; /* This controls the size. */
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid green;
+	position: absolute;
+	border-radius: 20px;
+}
+
+
 
