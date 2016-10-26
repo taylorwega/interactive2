@@ -27,7 +27,7 @@ animation: gradient 10s ease infinite;
 	width: 1470px;
 	height: 2000px;
 	margin: auto;
-	background-color: white;
+	background-color: lightgray;
 }
 
 .words{
@@ -199,7 +199,7 @@ div.d:hover{
 .circle{
 	width: 20px;
 	height: 20px;
-	border: 2px solid green;
+	border: 2px solid darkgreen;
 	border-radius: 20px;
 	position: absolute;
 }

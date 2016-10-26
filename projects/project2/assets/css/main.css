@@ -11,10 +11,12 @@ body{
 	width: 1470px;
 	height: 1400px;
 	margin: auto;
-	background-color: white;
+	background-color: darkgreen;
 }
 
-
+.letter{
+	
+}
 .rowone{
 	position:relative;
 	display: inline-block;
@@ -175,7 +177,7 @@ div.d:hover{
 .circle{
 	width: 20px;
 	height: 20px;
-	border: 2px solid green;
+	border: 2px solid white;
 	border-radius: 20px;
 	position: absolute;
 }
@@ -456,48 +458,46 @@ div.d:active{
 
  @keyframes bounce{
  	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
+ 		transform:scale(2);
  		transform: rotate 2s;
  	}
  	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
+ 		transform:scale(3);
+
  		transform: rotate 2s;
  	}
  	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
+ 		transform:scale(4);
+
  		transform: rotate 2s;
  	}
  	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
+ 		transform:scale(5);
+
  		transform: rotate 2s;
  	}
  	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
+ 		transform:scale(6);
  		transform: rotate 2s;
  	}
  	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
+
+ 		transform:scale(5);
  		transform: rotate 2s;
  	}
  	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
+ 		transform:scale(4);
+
  		transform: rotate 2s;
  	}
  	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
+
+ 		transform:scale(3);
  		transform: rotate 2s;
  	}
  	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
+
+ 		transform:scale(1);
  		transform: rotate 2s;
  	}
  }
