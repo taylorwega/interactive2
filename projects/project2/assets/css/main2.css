@@ -4,6 +4,22 @@
 
 body{
 	margin:auto;
+	background: linear-gradient(263deg, #119922, #a3ec5c, #96bd1c);
+background-size: 600% 600%;
+
+-webkit-animation: gradient 10s ease infinite;
+animation: gradient 10s ease infinite;
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+@keyframes gradient { 
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
 
 }
 
