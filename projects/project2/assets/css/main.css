@@ -9,7 +9,7 @@ body{
 
 .quilt{
 	width: 1470px;
-	height: 2000px;
+	height: 1400px;
 	margin: auto;
 	background-color: white;
 }
@@ -211,8 +211,9 @@ div.a:hover{
 
  }
  div.h:hover{
-	transform:scalex(1.5);
-	transform:scaley(.6);
+	transform:scalex(.5);
+	transform:scaley(.5);
+
  }
  div.i:hover{
 	transform:scalex(.2);
