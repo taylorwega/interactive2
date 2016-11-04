@@ -1,8 +1,5 @@
 body {
-    background-image: url("assets/name.jpg");
-    background-size: 1436px 740px;
-    background-image: no-repeat;
-    text-align: center;
+    background-color: green;
 }
 .main{
 
@@ -14,7 +11,7 @@ body {
 	margin: auto;
 	font-family: 'Averia Serif Libre', cursive;
 	font-size: 80px;
-	color: #D81B60;
+	color: white;
 	text-align: center;
 }
 
@@ -40,7 +37,7 @@ a{
 	font-family: 'Averia Serif Libre', cursive;
 	text-align: center;
 	text-decoration: none;
-	color: #D81B60;
+	color: white;
 	font-size: 20px;
 	
 
