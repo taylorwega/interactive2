@@ -4,18 +4,23 @@
 
 body{
 	margin:auto;
-
+	overflow-x: hidden; 
+    overflow-y: auto;
 }
 
 .quilt{
 	width: 1470px;
-	height: 1400px;
+	height: 2200px;
 	margin: auto;
-	background-color: darkgreen;
+	background-color: white;
+	position: absolute;
 }
 
 .letter{
-	
+	cursor: s-resize;
+}
+.letterwide{
+	cursor: e-resize;
 }
 .rowone{
 	position:relative;
@@ -27,27 +32,48 @@ body{
 	position: relative;
 	top: 350px;
 	left: 220px;
-
+	display: inline-block;
 	float:below;
 }
 .rowthree{
 	position: relative;
 	top: 590px;
 	left: 220px;
-
+	display: inline-block;
 }
 .rowfour{
 	position: relative;
 	top: 840px;
 	left: 220px;
-
+	display: inline-block;
 	float:below;
 }
 .rowfive{
 	position: relative;
 	top: 1090px;
 	left: 220px;
-
+	display: inline-block;
+	float:below;
+}
+.rowsix{
+	position: relative;
+	top: 1340px;
+	left: 220px;
+	display: inline-block;
+	float:below;
+}
+.rowseven{
+	position: relative;
+	top: 1600px;
+	left: 220px;
+	display: inline-block;
+	float:below;
+}
+.roweight{
+	position: relative;
+	top: 1950px;
+	left: 220px;
+	display: inline-block;
 	float:below;
 }
 
@@ -59,33 +85,25 @@ body{
 .a{
 	position: relative;
 }
-div.a:hover{
-	color: red;
-}
+
 .b{
 	position: relative;
-	left: 170px;
+	left: 180px;
 }
-div.b:hover{
-	color: red;
-}
+
 .c{
 	position: relative;
-	left: 420px;
+	left: 450px;
 }
-div.c:hover{
-	color: red;
-}
+
 .d{
 	position: relative;
-	left: 600px;
+	left: 630px;
 }
-div.d:hover{
-	color: red;
-}
+
 .e{
 	position: relative;
-	left: 850px;
+	left: 880px;
 }
 .f{
 	position: relative;
@@ -93,21 +111,21 @@ div.d:hover{
 }
 .g{
 	position: relative;
-	left: 170px;
+	left: 180px;
 }
 .h{
 	position: relative;
-	left: 420px;
+	left: 450px;
 }
 
 .i{
 	position: relative;
-	left: 560px;
+	left: 610px;
 }
 
 .j{
 	position: relative;
-	left: 760px;
+	left: 830px;
 }
 .k{
 	position: relative;
@@ -115,7 +133,7 @@ div.d:hover{
 }
 .l{
 	position: relative;
-	left: 170px;
+	left: 180px;
 }
 .m{
 	position: relative;
@@ -123,11 +141,11 @@ div.d:hover{
 }
 .n{
 	position: relative;
-	left: 600px;
+	left: 610px;
 }
 .o{
 	position: relative;
-	left: 770px;
+	left: 790px;
 }
 .p{
 	position: relative;
@@ -135,23 +153,23 @@ div.d:hover{
 }
 .q{
 	position: relative;
-	left: 160px;
+	left: 150px;
 }
 .r{
 	position: relative;
-	left: 410px;
+	left: 400px;
 }
 .s{
 	position: relative;
-	left: 580px;
+	left: 570px;
 }
 .t{
 	position: relative;
-	left: 690px;
+	left: 670px;
 }
 .u{
 	position: relative;
-	left: 880px;
+	left: 850px;
 }
 .v{
 	position: relative;
@@ -163,1489 +181,657 @@ div.d:hover{
 }
 .x{
 	position: relative;
-	left: 440px;
+	left: 430px;
 }
 .y{
 	position: relative;
-	left: 700px;
+	left: 670px;
 }
 .z{
 	position: relative;
-	left: 890px;
+	left: 840px;
 }
 
+.numberzero{
+	position: relative;
+	left: 0px;
+}
+.numberone{
+	position: relative;
+	left: 90px;
+}
+.numbertwo{
+	position: relative;
+	left: 240px;
+}
+.numberthree{
+	position: relative;
+	left: 400px;
+}
+.numberfour{
+	position: relative;
+	left: 550px;
+}
+.numberfive{
+	position: relative;
+	left: 690px;
+}
+.numbersix{
+	position: relative;
+	left: 840px;
+}
+.numberseven{
+	position: relative;
+	left: 0px;
+}
+.numbereight{
+	position: relative;
+	left: 150px;
+}
+.numbernine{
+	position: relative;
+	left: 310px;
+}
+.period{
+	position: relative;
+	left: 470px;
+}
+.comma{
+	position: relative;
+	left: 550px;
+}
+.yay{
+	position: relative;
+	left: 640px;
+
+}
+.quoteone{
+	position: relative;
+	left: 740px;
+}
+.quotetwo{
+	position: relative;
+	left: 760px;
+}
+.quoteone:active{
+	animation: pulse 2s;
+
+}
+.quotetwo:active{
+	animation: pulse 2s;
+}
+
+.yay:active{
+	animation: pulse 2s;
+}
+.what{
+	position: relative;
+	left: 350px;
+	animation: rubberBand 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
 .circle{
 	width: 20px;
 	height: 20px;
-	border: 2px solid white;
+	border: 2px solid #729B49;
+	border-radius: 20px;
+	position: absolute;
+}
+
+div.circle:hover{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #668945;
+	border-radius: 20px;
+	position: absolute;
+}
+
+.circle2{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #729B49;
+	border-radius: 20px;
+	position: absolute;
+}
+
+div.circle2:hover{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #94B96F;
 	border-radius: 20px;
 	position: absolute;
 }
 
 div.a:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+
+	/*transform:scalex(.5);
+	transform:scaley(.9);*/
  }
  div.b:hover{
-	transform:scalex(1);
-	transform:scaley(.8);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.c:hover{
-	transform:scalex(.3);
-	transform:scaley(.8);
+	/*transform:scalex(.3);
+	transform:scaley(.8);*/
  }
  div.d:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+	/*transform:scalex(.5);
+	transform:scaley(.9);*/
 
  }
  div.e:hover{
-	transform:scalex(1);
-	transform:scaley(.8);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.f:hover{
-	transform:scalex(.7);
-	transform:scaley(.3);
+/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.g:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
 
  }
  div.h:hover{
-	transform:scalex(.5);
-	transform:scaley(.5);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
 
  }
  div.i:hover{
-	transform:scalex(.2);
-	transform:scaley(.3);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.j:hover{
-	transform:scalex(.7);
-	transform:scaley(.3);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.k:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
 
  }
  div.l:hover{
-	transform:scalex(1.5);
-	transform:scaley(.6);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.m:hover{
-	transform:scalex(.2);
-	transform:scaley(.3);
+		/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
 
   div.n:hover{
-	transform:scalex(.7);
-	transform:scaley(.3);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.o:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
 
  }
  div.p:hover{
-	transform:scalex(1.5);
-	transform:scaley(.6);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.q:hover{
-	transform:scalex(.2);
-	transform:scaley(.3);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.r:hover{
-	transform:scalex(.7);
-	transform:scaley(.3);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.s:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
 
  }
  div.t:hover{
-	transform:scalex(1.5);
-	transform:scaley(.6);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.u:hover{
-	transform:scalex(.2);
-	transform:scaley(.3);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.v:hover{
-	transform:scalex(1.5);
-	transform:scaley(.6);
+	/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
  div.w:hover{
-	transform:scalex(.2);
-	transform:scaley(.3);
+/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.x:hover{
-	transform:scalex(.7);
-	transform:scaley(.3);
+/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
   div.y:hover{
-	transform:scalex(.5);
-	transform:scaley(.9);
+/*transform:scalex(1);
+	transform:scaley(.8);*/
 
  }
  div.z:hover{
-	transform:scalex(1.5);
-	transform:scaley(.6);
+/*transform:scalex(1);
+	transform:scaley(.8);*/
  }
 
  div.a:active{
-	animation: bounce 0.5s;
-	transition-delay: 5s;
+	animation: bounce 2s;
+	transition-delay: 2s;
  }
+
+
+ @-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+
+@-webkit-keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
 
  @keyframes bounce{
  	0%{
- 		transform:scalex(3);
  		transform:scaley(1);
  		transform: rotate 2s;
  	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
+
+ 	50%{
+ 		transform:scaley(8);
+ 		transform: rotate 2s;
+ 	}
+
+ 	100%{
+ 		transform:scaley(.5);
+ 		transform: rotate 1s;
+ 	}
+ }
+
+ @keyframes bouncetwo{
+ 	0%{
+ 		transform: scalex(1);
  		transform: rotate 2s;
  	}
  	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
+ 		transform: scalex(5);
  		transform: rotate 2s;
  	}
  	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
+ 		transform: scalex(.5);
+ 		transform: rotate 2s;
+	}
+ }
+
+  @keyframes bouncethree{
+ 	0%{
+ 		transform:scaley(1);
+ 		transform: rotate 2s;	
+ 	}
+ 	50%{
+ 		transform:scaley(12);
  		transform: rotate 2s;
  	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
+ 	100%{
+ 		transform:scaley(0.5); 
+ 		transform: rotate 2s;		
+ 	}
+ }
+
+ @keyframes bouncefour{
+ 	0%{
+ 		transform: scalex(1);
  		transform: rotate 2s;
  	}
  	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
+ 		transform: scalex(5);
  		transform: rotate 2s;
  	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
+ 	100%{
+ 		transform: scalex(.5);
  		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
+	}
  }
+  @keyframes bouncefive{
+ 	0%{
+ 		transform: scaley(1);
+ 		transform: rotate 2s;
+ 	}
+ 	50%{
+ 		transform: scaley(3);
+ 		transform: rotate 2s;
+ 	}
+ 	100%{
+ 		transform: scaley(.5);
+ 		transform: rotate 2s;
+	}
+ }
+
+ div.a:active{
+	animation: bounce 6s;
+	transition-delay: 5s;
+ }
+
+ div.a:active{
+	animation: bounce 6s;
+	transition-delay: 5s;
+ }
+
 div.b:active{
-	animation: bounce 0.5s;
+	animation: bouncefour 6s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
 div.c:active{
-	animation: bounce 0.5s;
+	animation: bounce 4s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
 div.d:active{
-	animation: bounce 0.5s;
+	animation: bouncetwo 5s;
 	transition-delay: 5s;
- }
+	transform-origin: top left;
+	}
 
- @keyframes bounce{
- 	0%{
- 		transform:scale(2);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scale(3);
-
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scale(4);
-
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scale(5);
-
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scale(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
-
- 		transform:scale(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scale(4);
-
- 		transform: rotate 2s;
- 	}
- 	25%{
-
- 		transform:scale(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
-
- 		transform:scale(1);
- 		transform: rotate 2s;
- 	}
- }
 div.e:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 3s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
 div.f:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 10s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.g:active{
-	animation: bounce 3s;
+	animation: bouncefour 3s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(1);
- 		transform:scaley(3);
- 		transform: bounce 2s;
- 	}
- 	25%{
- 		transform:scalex(3);
- 		transform:scaley(7);
- 		transform: bounce 2s;
- 	}
- 	50%{
- 		transform:scalex(5);
- 		transform:scaley(10);
- 		transform: bounce 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(15);
- 		transform: bounce 2s;
- 	}
- 	100%{
- 		transform:scalex(20);
- 		transform:scaley(20);
- 		transform: bounce 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(15);
- 		transform: bounce 2s;
- 	}
- 	50%{
- 		transform:scalex(5);
- 		transform:scaley(10);
- 		transform: bounce 2s;
- 	}
- 	25%{
- 		transform:scalex(3);
- 		transform:scaley(7);
- 		transform: bounce 2s;
- 	}
- 	0%{
- 		transform:scalex(1);
- 		transform:scaley(3);
- 		transform: bounce 2s;
- 	}
- }
+
 div.h:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 3s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.i:active{
 	animation: bounce 0.5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.j:active{
-	animation: bounce 1s;
+	animation: bouncethree 3s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.k:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 7s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.l:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 0.5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+
  div.m:active{
-	animation: bounce 0.5s;
+	animation: bouncefour 5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.n:active{
-	animation: bounce 0.5s;
+	animation: bounce 3s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.o:active{
-	animation: bounce 0.5s;
+	animation: bouncetwo .7s;
 	transition-delay: 5s;
+
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.p:active{
-	animation: bounce 0.5s;
+	animation: bounce 3s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.q:active{
-	animation: bounce 0.5s;
+	animation: bouncetwo 5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.r:active{
-	animation: bounce 0.5s;
+	animation: bounce 4s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 
 div.s:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 0.5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.t:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.u:active{
 	animation: bounce 0.5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.v:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 0.5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.w:active{
-	animation: bounce 0.5s;
+	animation: bouncetwo .5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.x:active{
-	animation: bounce 0.5s;
+	animation: bouncefour 2s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
+ 
 div.y:active{
-	animation: bounce 0.5s;
+	animation: bouncethree 0.5s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- }
 div.z:active{
-	animation: bounce 0.5s;
+	animation: bounce 4s;
 	transition-delay: 5s;
  }
 
- @keyframes bounce{
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	100%{
- 		transform:scalex(15);
- 		transform:scaley(6);
- 		transform: rotate 2s;
- 	}
- 	75%{
- 		transform:scalex(10);
- 		transform:scaley(5);
- 		transform: rotate 2s;
- 	}
- 	50%{
- 		transform:scalex(8);
- 		transform:scaley(4);
- 		transform: rotate 2s;
- 	}
- 	25%{
- 		transform:scalex(6);
- 		transform:scaley(3);
- 		transform: rotate 2s;
- 	}
- 	0%{
- 		transform:scalex(3);
- 		transform:scaley(1);
- 		transform: rotate 2s;
- 	}
+div.numberzero:active{
+	animation: bouncefive 0.7s;
+	transition-delay: 5s;
  }
+ div.numberone:active{
+	animation: bouncefive 0.5s;
+	transition-delay: 5s;
+ }
+div.numbertwo:active{
+	animation: bouncefive 0.8s;
+	transition-delay: 5s;
+ }
+ div.numberthree:active{
+	animation: bouncefive 0.5s;
+	transition-delay: 5s;
+ }
+ div.numberfour:active{
+	animation: bouncefive 0.7s;
+	transition-delay: 5s;
+ }
+div.numberfive:active{
+	animation: bouncefive 0.5s;
+	transition-delay: 5s;
+ }
+ div.numbersix:active{
+	animation: bouncefive 0.5s;
+	transition-delay: 5s;
+ }
+
+div.numberseven:active{
+	animation: bouncefive 0.8s;
+	transition-delay: 5s;
+ }
+div.numbereight:active{
+	animation: bouncefive 0.5s;
+	transition-delay: 5s;
+ }
+div.numbernine:active{
+	animation: bouncefive 0.7s;
+	transition-delay: 5s;
+ }
+
 
 
 .one {
@@ -2073,8 +1259,6 @@ div.z:active{
 	position: relative;
 	top: 160px;
 }
-
-
 
 
 
