@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	margin-top: -5px;
+	margin-left: -5px;
+	background: black;
+	position: fixed;
+}
+
+#questionone{
+	width: 100vw;
+	margin-top: 290px;
+	color:white;
+	font-family: serif;
+	text-align: center;
+	font-size: 120px;
+	position:fixed;
+}
+
+#questionone:hover{
+	transform: scaleX(500);
+transform: scaleY(500);
+
+}
+
+#questiontwo{
+	width: 100vw;
+	margin-top: 290px;
+	color:white;
+	font-family: serif;
+	text-align: center;
+	font-size: 120px;
+	position:fixed;
+}
+
+#questiontwo:hover{
+	-webkit-transform: rotate(15deg);
+}
