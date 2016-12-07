@@ -22,16 +22,183 @@ body {
 
 }
 
-#title{
+#frameone{
 	position:fixed;
 	width: 100vw;
 	height:60px;
+	margin-left: -570px;
 	margin-top: 20px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(0.4);
+	transform: scale(0.17);
 }
+#frametwo{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: -350px;
+	margin-top: 20px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.13);
+}
+#framethree{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: -570px;
+	margin-top: 200px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.15);
+}
+
+#framefive{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 400px;
+	margin-top: 0px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.1);
+}
+
+#framesix{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 300px;
+	margin-top: 170px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.2);
+}
+
+#frameseven{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 400px;
+	margin-top: 200px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.9);
+}
+
+#frameeight{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 400px;
+	margin-top: 90px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.1);
+}
+
+#framenine{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 500px;
+	margin-top: 20px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.1);
+}
+
+#frameten{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 400px;
+	margin-top: -400px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.2);
+}
+
+#frameeleven{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: -700px;
+	margin-top: -20px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.22);
+}
+
+#frameeleven{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 0px;
+	margin-top: 20px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.5);
+}
+#framename{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: -40px;
+	margin-top: 100px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.125);
+}
+
+#frametwleve{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: -700px;
+	margin-top: 120px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.1);
+}
+
+#framethirteen{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: 650px;
+	margin-top: 200px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.1);
+}
+
+#framefourteen{
+	position:fixed;
+	width: 100vw;
+	height:60px;
+	margin-left: -300px;
+	margin-top: 100px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.1);
+}
+
 
 #rowtwo{
 	position:fixed;
@@ -59,10 +226,10 @@ body {
 
 
 .banana {
-	top:170px;
+	top:00px;
 	left:2500px;
 	float:right;
-	position: fixed;
+	position: absolute;
 	opacity: 1;
 	transform: scale(0.2);
 
