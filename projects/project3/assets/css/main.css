@@ -59,8 +59,8 @@ body {
 
 
 .banana {
-	top:470px;
-	left:290px;
+	top:170px;
+	left:2500px;
 	float:right;
 	position: fixed;
 	opacity: 1;
@@ -84,7 +84,18 @@ body {
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(0.5);
+	transform: scale(1.2);
+	transform: skew(25deg);
+	transform: rotate( 90deg);
+
+}
+.hotdog2 {
+	top:-180px;
+	left:2300px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(0.09);
 
 }
 .burger1 {
@@ -93,7 +104,26 @@ body {
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(0.4);
+	transform: scale(1.5);
+
+}
+
+.apple1 {
+	top:-300px;
+	left:2700px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(0.1);
+
+}
+.apple2 {
+	top:-180px;
+	left:1700px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(0.1);
 
 }
 .burger2 {
@@ -102,7 +132,7 @@ body {
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(0.4);
+	transform: scale(0.5);
 
 }
 .burger3 {
@@ -122,7 +152,7 @@ body {
 	position: absolute;
 	float:right;
 	opacity: 1;
-	transform: scale(0.5);
+	transform: scale(1);
 
 }
 .martini2 {
@@ -132,7 +162,7 @@ body {
 	position: absolute;
 	float:right;
 	opacity: 1;
-	transform: scale(0.5);
+	transform: scale(.5);
 
 }
 .martini3 {
@@ -150,7 +180,7 @@ body {
 	position: absolute;
 	float:right;
 	opacity: 1;
-	transform: scale(0.5);
+	transform: scale(1.5);
 
 }
 .banana:hover {
