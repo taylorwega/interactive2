@@ -155,7 +155,7 @@ body {
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: -40px;
+	margin-left: -50px;
 	margin-top: 100px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
@@ -277,7 +277,7 @@ body {
 
 .apple1 {
 	top:-300px;
-	left:2700px;
+	left: -20px;
 	float:right;
 	position: absolute;
 	opacity: 1;
@@ -286,7 +286,7 @@ body {
 }
 .apple2 {
 	top:-180px;
-	left:1700px;
+	left:700px;
 	float:right;
 	position: absolute;
 	opacity: 1;
