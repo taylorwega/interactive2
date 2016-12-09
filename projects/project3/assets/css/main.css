@@ -42,6 +42,7 @@ body {
 	margin-top: 66px;
 	transform: scale(0.22);
 	opacity: 0;
+	z-index: 2;
 	
 }
 
@@ -111,11 +112,11 @@ body {
 	width: 100vw;
 	height:60px;
 	margin-left: 540px;
-	margin-top: 190px;
+	margin-top: 20px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(0.2);
+	transform: scale(0.22);
 
 }
 
@@ -161,12 +162,12 @@ body {
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: 400px;
-	margin-top: 300px;
+	margin-left: 290px;
+	margin-top: 180px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(09);
+	transform: scale(0.15);
 }
 
 #frameeleven{
@@ -216,6 +217,31 @@ body {
 	text-align: center;
 	font-size: 120px;
 	transform: scale(02);
+}
+
+#frameplace{
+	position:fixed;
+	max-width: 70px;
+	height:60px;
+	margin-left: 60px;
+	margin-top: 60px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.09);
+	z-index: 0
+}
+
+#framewho{
+	position:fixed;
+	max-width: 70px;
+	height:60px;
+	margin-left: 930px;
+	margin-top: 230px;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 120px;
+	transform: scale(0.11);
 }
 
 #framefourteen{
