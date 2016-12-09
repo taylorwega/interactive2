@@ -33,27 +33,54 @@ body {
 	font-size: 120px;
 	transform: scale(0.17);
 }
+
+#pic1{
+	position:fixed;
+	max-width: 70px;
+	height:60px;
+	margin-left: 73px;
+	margin-top: 66px;
+	transform: scale(0.22);
+	opacity: 0;
+	
+}
+
 #frametwo{
 	position:fixed;
-	width: 100vw;
+	width: 400px;
 	height:60px;
-	margin-left: -350px;
+	margin-left: 55px;
 	margin-top: 20px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
 	transform: scale(0.13);
+
 }
+
 #framethree{
 	position:fixed;
 	width: 100vw;
 	height:60px;
 	margin-left: -570px;
-	margin-top: 200px;
+	margin-top: 170px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
 	transform: scale(0.15);
+	z-index: 0;
+}
+
+#pic2{
+	position:fixed;
+	max-width: 70px;
+	height:60px;
+	margin-left: 223px;
+	margin-top: 86px;
+	transform: scale(0.15);
+	opacity: 0;
+	z-index: 1;
+	
 }
 
 #framefive{
@@ -61,35 +88,48 @@ body {
 	width: 100vw;
 	height:60px;
 	margin-left: 400px;
-	margin-top: 0px;
+	margin-top: 20px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
 	transform: scale(0.1);
 }
 
+#pic3{
+	position:fixed;
+	max-width: 70px;
+	height:60px;
+	margin-left: 1073px;
+	margin-top: 40px;
+	transform: scale(.4);
+	opacity: 0;
+	z-index: 2;
+}
+
 #framesix{
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: 300px;
-	margin-top: 170px;
+	margin-left: 540px;
+	margin-top: 190px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
 	transform: scale(0.2);
+
 }
 
 #frameseven{
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: 400px;
-	margin-top: 200px;
+	margin-left: -270px;
+	margin-top: 180px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(0.9);
+	transform: scale(0.5);
+	
 }
 
 #frameeight{
@@ -108,12 +148,13 @@ body {
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: 500px;
-	margin-top: 20px;
+	margin-left: 280px;
+	margin-top: 00px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
 	transform: scale(0.1);
+
 }
 
 #frameten{
@@ -121,23 +162,11 @@ body {
 	width: 100vw;
 	height:60px;
 	margin-left: 400px;
-	margin-top: -400px;
+	margin-top: 300px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(0.2);
-}
-
-#frameeleven{
-	position:fixed;
-	width: 100vw;
-	height:60px;
-	margin-left: -700px;
-	margin-top: -20px;
-	font-family: 'Amatic SC', cursive;
-	text-align: center;
-	font-size: 120px;
-	transform: scale(0.22);
+	transform: scale(09);
 }
 
 #frameeleven{
@@ -145,12 +174,14 @@ body {
 	width: 100vw;
 	height:60px;
 	margin-left: 0px;
-	margin-top: 20px;
+	margin-top: -5px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(0.5);
+	transform: scale(0.49);
 }
+
+
 #framename{
 	position:fixed;
 	width: 100vw;
@@ -167,8 +198,8 @@ body {
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: -700px;
-	margin-top: 120px;
+	margin-left: -390px;
+	margin-top: 260px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
@@ -184,15 +215,15 @@ body {
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
-	transform: scale(0.1);
+	transform: scale(02);
 }
 
 #framefourteen{
 	position:fixed;
 	width: 100vw;
 	height:60px;
-	margin-left: -300px;
-	margin-top: 100px;
+	margin-left: -275px;
+	margin-top: 80px;
 	font-family: 'Amatic SC', cursive;
 	text-align: center;
 	font-size: 120px;
@@ -209,7 +240,7 @@ body {
 }
 
 .base {
-	top: 400px;
+	top: 490px;
 	left: 350px;
 	position: relative;
 	width: 4000px;
@@ -217,7 +248,7 @@ body {
 	-webkit-transform: skew(60deg);
 	-moz-transform: skew(0deg);
 	-o-transform: skew(0deg);
-	background: #E62EB7;
+	background: #c5e6e8;
 	
 
 }
@@ -226,7 +257,7 @@ body {
 
 
 .banana {
-	top:00px;
+	top:-100px;
 	left:2500px;
 	float:right;
 	position: absolute;
@@ -245,13 +276,33 @@ body {
 
 }
 
-.hotdog {
-	top:400px;
-	left:1300px;
+.banana02{
+	top:150px;
+	left:3000px;
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(1.2);
+	transform: scale(0.5);
+
+}
+
+.banana03{
+	top:200px;
+	left:2000px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(0.2);
+
+}
+
+.hotdog {
+	top:400px;
+	left:3800px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(.009);
 	transform: skew(25deg);
 	transform: rotate( 90deg);
 
@@ -265,6 +316,17 @@ body {
 	transform: scale(0.09);
 
 }
+
+.hotdog3 {
+	top:180px;
+	left:330px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(0.09);
+
+}
+
 .burger1 {
 	top:480px;
 	left:1600px;
@@ -290,16 +352,16 @@ body {
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(0.1);
+	transform: scale(0.3);
 
 }
 .burger2 {
-	top:500px;
-	left:1350px;
+	top:430px;
+	left:210px;
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(0.5);
+	transform: scale(1);
 
 }
 .burger3 {
@@ -308,12 +370,39 @@ body {
 	float:right;
 	position: absolute;
 	opacity: 1;
-	transform: scale(0.4);
+	transform: scale(.5);
 
 }
 
+.burger4 {
+	top:500px;
+	left:2500px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(.4);
+}
+
+.burger5 {
+	top:500px;
+	left:2800px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(.8);
+}
+
+.burger6 {
+	top:500px;
+	left:3600px;
+	float:right;
+	position: absolute;
+	opacity: 1;
+	transform: scale(.8);
+}
+
 .martini {
-	top:300px;
+	top:350px;
 	left:1700px;
 
 	position: absolute;
@@ -347,8 +436,52 @@ body {
 	position: absolute;
 	float:right;
 	opacity: 1;
-	transform: scale(1.5);
+	transform: scale(1.);
 
+}
+
+.martini5 {
+	top:330px;
+	left:3000px;
+	position: absolute;
+	float:right;
+	opacity: 1;
+	transform: scale(1.);
+
+}
+.martini6 {
+	top:500px;
+	left:3990px;
+	position: absolute;
+	float:right;
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.martini7 {
+	top:410px;
+	left:400px;
+	position: absolute;
+	float:right;
+	opacity: 1;
+	transform: scale(1);
+}
+.martini8 {
+	top:400px;
+	left:2590px;
+	position: absolute;
+	float:right;
+	opacity: 1;
+	transform: scale(1.5);
+}
+
+.martini9 {
+	top:560px;
+	left:2300px;
+	position: absolute;
+	float:right;
+	opacity: 1;
+	transform: scale(1);
 }
 .banana:hover {
 	
